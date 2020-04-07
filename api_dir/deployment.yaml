@@ -1,0 +1,1 @@
+apiVersion: extensions/v1beta1kind: Deploymentmetadata:  name: generatorspec:  replicas: 3  template:    metadata:      labels:        name: generator-pods    spec:      containers:      - image: generator        name: generator-container        imagePullPolicy: Always        ports:        - containerPort: 80          name: http-server
