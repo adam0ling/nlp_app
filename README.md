@@ -69,9 +69,9 @@ $ docker build -t gcr.io/${PROJECT_ID}/nlp-app:v1 .
 
 Make sure docker daemon is running, if not $ sudo dockerd
 
-Run $ docker images to verify that the image was built, you should see a line like this:
+Run [$ docker images] to verify that the image was built, you should see a line like this:
 
-gcr.io/nlp-test-273608/nlp-app       v1                  b372c66efdea        19 hours ago        4.64GB
+    gcr.io/nlp-test-273608/nlp-app       v1                  b372c66efdea        19 hours ago        4.64GB
 
 Now we need to upload it to the Container Registry.
 
