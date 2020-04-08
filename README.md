@@ -155,6 +155,8 @@ $ gcloud app browse
 
 Congrats! You're in. Type your starting lyrics and wait for monkeys to finish the job. Cyber monkeys I mean.
 
+15. Don't forget to delete the project after you're donw ith it as leaving it online will incur charges. To do that simply click the burger buttton near your account avatar in the top right corner then Project Settings and then click SHUT DOWN. Type project ID in the box and SHUT DOWN again. All done. All charges should be stopped now.
+
 # Doesn't work?
 
 * Check that you renamed app.py to main.py
