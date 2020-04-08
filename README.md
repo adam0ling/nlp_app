@@ -1,6 +1,8 @@
 # This is an example api for a NLP model deployment
 
-## API
+## Local
+
+### API
 
 
 Firstly check if your docker daemon is running and if not run it:
@@ -27,7 +29,7 @@ Change the part after ?text= to your preffered promt like http://localhost/gener
 
 Generate lyrics using your new API.
 
-## APP
+### APP
 
 You need to install requirements in app_dir/requiremnts.txt either using a seperate pipenv, docker image or just straight with pip if you choose so. I use pipenv and suggest you do the same. Or conda enviroment.
 
@@ -41,7 +43,7 @@ Open it and congrats!! you are in
 
 
 
-# Deploying to GCloud
+## Deploying to GCloud
 
 So, hopefully you have the model running with the app and api locally, but now you want to deploy it to the cloud. This guide will help you out with exactly that.
 
