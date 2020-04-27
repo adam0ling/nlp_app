@@ -17,6 +17,8 @@ $ docker build -t nlp_api .
 
 Then move your output directory contents with your model to api_dir/api/output10k or just download my pretrained Modern Talking lyrics generation weights at: https://drive.google.com/open?id=1MDFcUF7vylJCvoIHMv4AtP9Xw_-KNvXl
 
+You can train your own weights using this repo: https://github.com/adam0ling/train_gpt
+
 Then in the same directory you've built docker image use this to run the api (..path to/nlp_app/api_dir):
 
 $ docker run -p 80:80 nlp_api
