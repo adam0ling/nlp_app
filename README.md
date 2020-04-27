@@ -1,5 +1,7 @@
 # This is an example api for a NLP model deployment
 
+You can check another example with a deployed app: https://github.com/adam0ling/answerthis
+
 ## Local
 
 ### API
